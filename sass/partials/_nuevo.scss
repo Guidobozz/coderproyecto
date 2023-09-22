@@ -1,0 +1,103 @@
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 150px repeat(2, auto) auto;
+    grid-template-areas: 
+    "zapa1 h1 zapa2"
+    "texto1 zapa3 texto2"
+    "zapa4 texto3 zapa5";
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    .grid-img1{
+        grid-area: zapa1;
+    }
+    .grid-titulo1{
+        grid-area: h1;
+        background-color: #000000;
+        font-size: 4rem;
+      }
+      .grid-img2{
+        grid-area: zapa2;
+      }
+      .grid-titulo2{
+        grid-area: texto1;
+        font-size: 3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #000000;
+        color:$naranjaoscuro;
+      }
+      .grid-img3{
+        grid-area: zapa3;
+        width: 100%;
+        height: 300px; 
+        object-fit: cover;
+      }
+      .grid-titulo3{
+        grid-area: texto2;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #000000;
+        color: $naranjaoscuro;
+        font-size: 3rem;
+      }
+      .grid-img4{
+        grid-area: zapa4;
+      }
+      .grid-titulo4{
+        grid-area: texto3;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #000000;
+        color: $naranjaoscuro;
+        font-size: 3rem;
+      }
+      .grid-img5{
+        grid-area: zapa5;
+      }
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+}
+.imglanzamientosdos{
+    width: 19.7%;
+    text-align: left;
+    margin-left: 30px;
+  }
+.navnuevo{
+    background-color: #000000;
+    color: #ff6000;
+    .h2nuevo{
+        font-size: 3rem;
+        text-align: center;
+      }
+  }
+  
+  .imagenconzoom{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 auto;
+    img {
+        width: 60.7%;
+        height: auto;
+        transition: transform 0.3s ease;
+        text-align: center;
+        :hover{
+            transform: scale(1.8); 
+        }
+      }
+  }
+
+ .imagenconzoom:hover img {
+    transform: scale(1.8);
+  }
+  .pzoom{
+    font-size: 5rem;
+    text-align: center;
+    background-color: #000000;
+    color: #ff6000;
+  }

@@ -1,0 +1,55 @@
+.logonike{
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    .imgnike{
+        width: 40%;
+      
+      }
+      .niketexto {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 2rem;
+      
+      }
+}
+.contenedor-griddos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+     "zapa1 zapa2 zapa3"
+     "zapa4 zapa5 zapa6";
+    justify-items: center;
+    gap: 20px;
+    .grid-zapauno{
+        grid-area: zapa1;
+        max-width: 100%;
+      }
+      .grid-zapados{
+        grid-area: zapa2;
+        max-width: 100%;
+      }
+      .grid-zapatres{
+        grid-area: zapa3;
+        max-width: 100%;
+      }
+      .grid-zapacuatro{
+        grid-area: zapa4;
+        max-width: 100%;
+      }
+      .grid-zapacinco{
+        grid-area: zapa5;
+        max-width: 100%;
+      }
+      .grid-zapaseis{
+        grid-area: zapa6;
+        max-width: 100%;
+      }
+
+}
+

@@ -1,3 +1,4 @@
+/*
 *{
   padding: 0;
   margin: 0;
@@ -41,7 +42,7 @@
   }
   
   .dropdown:hover .dropbtn {
-    background-color: rgb(255, 153, 0);
+    background-color: #ff9900;
   }
 header nav{
   background-color: black;
@@ -124,7 +125,7 @@ footer div {
 
   text-decoration: solid;
 }
-/* NOSOTROS */
+
 .headernosotros{
   background-color: #000000;
 }
@@ -150,8 +151,7 @@ main div h2{
 }
 
 
-/* NUEVO 
-*/
+
 
 .contenedor-grid img{
   width: 100%;
@@ -277,7 +277,7 @@ main div h2{
   left: 50%;
   transform: translateX(-50%);
   font-size: 2rem;
- 
+
 }
 .contenedor-grid img{
   width: 100%;
