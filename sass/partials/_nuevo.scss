@@ -101,3 +101,10 @@
     background-color: #000000;
     color: #ff6000;
   }
+ .animacion{
+  color: blue; 
+    transition: color 0.3s;
+    :hover{
+      color: red;
+    }
+ }

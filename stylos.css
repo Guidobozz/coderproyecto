@@ -263,6 +263,14 @@ footer div {
   color: #ff6000;
 }
 
+.animacion {
+  color: blue;
+  transition: color 0.3s;
+}
+.animacion :hover {
+  color: red;
+}
+
 .headernosotros {
   background-color: #000000;
 }
